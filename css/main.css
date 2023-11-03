@@ -84,6 +84,7 @@ html {
   padding-top: 30px; /* Add some top padding for better appearance */
   height: 0;
   overflow: hidden;
+  width: 400px;
 }
 
 .video-container iframe {
