@@ -84,7 +84,7 @@ html {
   padding-top: 30px; /* Add some top padding for better appearance */
   height: 0;
   overflow: hidden;
-  width: 30%; /* Adjust this value to make the video container smaller */
+  width: 70%; /* Adjust this value to make the video container smaller */
   margin: 0 auto; /* Center the container horizontally */
   display: flex;
   justify-content: center; /* Center the content horizontally */
