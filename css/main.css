@@ -84,14 +84,14 @@ html {
   padding-top: 30px; /* Add some top padding for better appearance */
   height: 0;
   overflow: hidden;
-  width: 400px;
+  width: 50%;
 }
 
 .video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 400px;
+  width: 50%;
   height: 100%;
 }
 .wave-bg {
