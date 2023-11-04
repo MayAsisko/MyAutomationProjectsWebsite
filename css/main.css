@@ -84,12 +84,12 @@ html {
   padding-top: 30px; /* Add top padding for appearance */
   height: 0;
   overflow: hidden;
-  width: 50%; /* Adjust this value to make the video container smaller */
+  width: 100%; /* Adjust this value to make the video container smaller */
   margin: 0 auto; /* Center horizontally */
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  border-radius: 15px; /* Add rounded corners */
+  border-radius: 20px; /* Add rounded corners */
 }
 
 .video-container iframe {
