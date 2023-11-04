@@ -81,14 +81,15 @@ html {
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  padding-top: 30px; /* Add some top padding for better appearance */
+  padding-top: 30px; /* Add top padding for appearance */
   height: 0;
   overflow: hidden;
-  width: 30%; /* Adjust this value to make the video container smaller */
-  margin: 0 auto; /* Center the container horizontally */
+  width: 40%; /* Adjust this value to make the video container smaller */
+  margin: 0 auto; /* Center horizontally */
   display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border-radius: 15px; /* Add rounded corners */
 }
 
 .video-container iframe {
