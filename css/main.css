@@ -8,7 +8,9 @@ html, body {
 html {
   scroll-behavior: smooth;
 }
-
+.bottom-section {
+  padding: 9px; /* Adjust the padding as needed to make the section smaller */
+}
 /**
  * Disable smooth scrolling when users have prefers-reduced-motion enabled
  */
