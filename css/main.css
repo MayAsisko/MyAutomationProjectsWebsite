@@ -40,6 +40,18 @@ html {
     float: left;
   }
 }
+/* Base styles for the video container */
+.video-container {
+    max-width: 560px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the video horizontally */
+}
+
+/* Media query for screens with a maximum width of 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    .video-container {
+        max-width: 100%; /* Allow the container to take the full screen width on smaller devices */
+    }
+}
 
 .nav-link {
   font-weight: 700;
