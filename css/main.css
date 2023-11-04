@@ -1,7 +1,10 @@
 html, body {
   overflow-x: hidden;
 }
-
+iframe {
+  max-width: 100%; /* Allow the iframe to shrink on smaller screens */
+  height: auto; /* Maintain the original aspect ratio */
+}
 /**
  * Enable smooth scrolling on the whole document
  */
