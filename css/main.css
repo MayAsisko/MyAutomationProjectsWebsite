@@ -42,8 +42,12 @@ html {
 }
 .video-container {
   position: relative;
-  width: 640px; /* Set a specific width for desktop */
-  height: 360px; /* Set a specific height for desktop */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+  padding-top: 30px; /* Add top padding for better appearance */
+  height: 0;
+  overflow: hidden;
+  max-width: 800px; /* Set a maximum width for the container on desktop */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
 .video-container iframe {
